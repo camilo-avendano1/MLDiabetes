@@ -47,14 +47,14 @@ En esta sección, se aplica la técnica de sobre-muestreo utilizando SMOTENC par
 5. Entrenamiento y selección de los mejores hiperparámetros de cada modelo
 Se utilizan tres modelos de aprendizaje supervisado: Redes Neuronales, Gradient Boosting Tree y SVM. Cada modelo se entrena con diferentes combinaciones de hiperparámetros, y se evalúa su rendimiento utilizando métricas como F1-Score, precisión, sensibilidad, exactitud y especificidad.
 
-5.1 Redes Neuronales
-Se prueba la arquitectura de la red neuronal variando el número de capas ocultas y el número de neuronas por capa. Se muestra un gráfico que compara el F1-Score en conjunto de entrenamiento, validación cruzada y prueba para diferentes configuraciones de hiperparámetros.
-
-5.2 Gradient Boosting Tree
-Se evalúa el rendimiento del modelo Gradient Boosting Tree con diferentes cantidades de árboles y variables máximas. Al igual que en las redes neuronales, se muestra un gráfico que compara el F1-Score en conjunto de entrenamiento, validación cruzada y prueba.
-
-5.3 SVM
-Se ajusta un modelo SVM variando el parámetro de regularización (C) y se evalúa su rendimiento. También se muestra un gráfico que compara las métricas en diferentes valores de C.
-
+      5.1 Redes Neuronales
+      Se prueba la arquitectura de la red neuronal variando el número de capas ocultas y el número de neuronas por capa. Se muestra un gráfico que compara el F1-Score en conjunto de entrenamiento, validación        cruzada y prueba para diferentes configuraciones de hiperparámetros.
+      
+      5.2 Gradient Boosting Tree
+      Se evalúa el rendimiento del modelo Gradient Boosting Tree con diferentes cantidades de árboles y variables máximas. Al igual que en las redes neuronales, se muestra un gráfico que compara el F1-Score         en conjunto de entrenamiento, validación cruzada y prueba.
+      
+      5.3 SVM
+      Se ajusta un modelo SVM variando el parámetro de regularización (C) y se evalúa su rendimiento. También se muestra un gráfico que compara las métricas en diferentes valores de C.
+      
 
 
